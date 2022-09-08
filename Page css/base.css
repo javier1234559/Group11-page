@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Montserrat:wght@400;500;600;700&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,800;1,400;1,700&family=Roboto:wght@300;400;500;700&display=swap');/*=====================================================  STYLE SETUP ====================================== */
+:root{
+    /* Header Styles */
+    --header-height :80px ;
+      
+    /* Color Style */
+    --main-color:#c9adc6;
+    --main-color-bolder:#a78ba3;
+    --white-color:#fff;
+    --text-color:#5f4d5d;
+    --black-color:#000;
+    /* Font */
+    --roboto-font : 'Roboto', sans-serif;
+    --cormorant-font:'Cormorant Garamond', serif;
+    --poppin-font: 'Poppins', sans-serif;
+    --montserrat-font:'Montserrat', sans-serif;
+    /* Font Size */
+    --nav-font : 3rem;
+    --title-font : 6.5rem;
+    --sub-title-font :  2.5rem ;
+    --normal-font: 2.4rem;
+    --sub-normal-font: 1.6rem;
+    --tiny-font:1.2rem;
+
+    /* z-index */
+    --z-fixed :10 ;
+
+}
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 30px;
+    /* border: 1px solid #000; */
+}
+html{
+    -webkit-tap-highlight-color: transparent; 
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: var(--roboto-font);
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* ===================================================== RE-USE CLASS ======================================= */
+
+.line-hover{
+    position: relative;
+}
+.line-hover::after{
+    content: "" ;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    width: 0 ;
+    bottom: -40%;
+    transition: width .5s ease;
+}
+.line-hover:hover::after{
+    background-color: #000;
+    padding:1px;
+    width: 100%;
+}
+.bottom-line{
+    position: relative;
+}
+.bottom-line::after{
+    content: "";
+    height: 2px;
+    left: -100px;
+    width: 100px ;
+    bottom: -40% ;
+    position: absolute;
+    background-color: red;
+
+
+}
+
+/* ===================================================== LAYOUT SETUP ====================================== */
+
+.content-wrapper{
+    position: relative;
+    width: 100%;
+    max-width: 1265px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+section,
+footer{
+    padding: 3rem 0 ;
+}
+section{
+    min-height: 400px;
+}
+
+.wide{
+    width: 90%;
+    max-width: 1200px;
+    margin-inline: auto;
+ }
+ 
+ .row-between{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .row-around{
+     display: flex;
+     justify-content: space-around;
+ }
+ .column{
+     display: flex;
+     flex-direction: column;
+ }
