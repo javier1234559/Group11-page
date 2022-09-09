@@ -1,0 +1,43 @@
+/* Tablet */
+@media   (min-width: 740px ) and (max-width: 1023px) {
+    .bottom-line::after{
+        left: 38% ;
+    
+    }
+}
+/* Mobile */
+@media   (max-width: 739px )  { 
+    .section-home-img-info{
+        position: static;
+        font-size: 0.1em;
+    }
+    .section-home-img-info h1{
+        font-size: var(--nav-font);
+    }
+    .flex-start{
+        display: flex;
+        justify-content: center;
+    }
+    .flex-start .box{
+        margin-left: 0em;
+    }
+    .bottom-line::after{
+        left: 28% ;
+    
+    }
+}   
+
+/* Tablet and Mobile */
+@media (max-width:1023px){
+    .section-home-img-info{
+        position: static;
+        font-size: 1em;
+    }
+    
+    .section-users{
+        display: flex;
+        gap: 3em;
+        flex-wrap: wrap;
+       
+    }   
+}

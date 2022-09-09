@@ -4,27 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="shortcut icon" href="../img/keyboard-falvicon.png" type="image/x-icon">
     <!-- Link Unicon icon's CSS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- Link loader css -->
     <link rel="stylesheet" href="../Page css/loader-effect.css">
-    <link rel="stylesheet" href="../Page css/grid.css">
+    <!-- Link fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"/>
+    <!-- <link rel="stylesheet" href="../Page css/grid.css"> -->
     <link rel="stylesheet" href="../Page css/base.css">
     <link rel="stylesheet" href="../Page css/main.css">
     <link rel="stylesheet" href="../Page css/responsive.css">
+    <link rel="stylesheet" href="../Page css/themify-icons-font/themify-icons/themify-icons.css">
     <title>Group 11</title>
 </head>
 <body>
      <!-- Loader effect -->
-     <!-- <div class="loader-wapper" id="reload-animation">
+     <div class="loader-wapper" id="reload-animation">
         <span class="loader"><span class="loader-inner"></span></span>
-    </div> -->
+    </div>
     <header>
         <nav class="navigation wide ">
             <a class="navigation-item line-hover" href="#">Welcome</a>
             <div class="vertical-line"></div>
-            <a class="navigation-item line-hover" href="#">Project</a>
+            <a class="navigation-item line-hover" href="#project">Project</a>
         </nav>
     </header>
     <main>
@@ -34,24 +37,76 @@
             </div>
             <div class="section-home-img-info">
                 <h1>Nhóm 11</h1>
-                <h2>Member : Nguyễn Minh Nhật</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, similique aut hic repudiandae voluptatibus perspiciatis expedita dolorum. Aliquid, dolorum vero!</p>
-                <a class="" href="#">See Project</a>
+                <h2>Lập Trình Website</h2>
+                <p>Trường đại học Sư Phạm Kĩ Thuật Hồ Chí Minh</p>
+                <p>Giảng viên phụ trách : Mai Anh Thơ</p>
+                <a class="" href="#project">See Project</a>
             </div>
         </section>
-        <section class="section-project wide">
+        <div class="full-width-color">
+            <section class="section-member wide" >
+                <h1 class="bottom-line">Team</h1>
+                 <div class="section-users">
+                    <div class="user card m-4" >
+                        <div class="user-img">
+                            <img src="../img/dinhquan.jpg" alt="">
+                        </div>
+                        <div class="user-content">
+                            <h2>20110043</h2>
+                            <h3>Định Quân</h3>
+                            <div class="user-icon">
+                                <a href=""><i class="fa-solid fa-phone"></i>0938004740 </a>
+                                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                                <a href=""><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user card m-4" >
+                        <div class="user-img">
+                            <img src="../img/keyboard.png" alt="">
+                        </div>
+                        <div class="user-content">
+                            <h2>20161347</h2>
+                            <h3>Nguyễn Bùi Minh Nhật</h3>
+                            <div class="user-icon">
+                                <a href=""><i class="fa-solid fa-phone"></i>0962472106 </a>
+                                <a href=""><i class="fa-regular fa-envelope"></i>nhat1234559@gmail.com</a>
+                                <a href=""><i class="fa-brands fa-github"></i>javier1234559</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user card m-4" >
+                        <div class="user-img">
+                            <img src="../img/keyboard.png" alt="">
+                        </div>
+                        <div class="user-content">
+                            <h2>20110499</h2>
+                            <h3>Đỗ Vũ Hưng</h3>
+                            <div class="user-icon">
+                                <a href=""><i class="fa-solid fa-phone"></i>0353592827</a>
+                                <a href=""><i class="fa-regular fa-envelope"></i></a>
+                                <a href=""><i class="fa-brands fa-github"></i>vuhung1402</a>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+        </div>
+        <section id="project" class="section-project wide">
             <h1 class="bottom-line">Project</h1>
-            <div class="project-items row-around">
+            <div class="project-items flex-start">
                 <div class="box project-item-1">
-                    <img src="../img/keyboard.png" alt="">
+                    <a href="https://bt1group11.herokuapp.com/">
+                        <img src="../img/register-web.png" alt="register and thanks website by java">
+                        <div class="sibling">
+                            <h2>Web đăng kí bằng gmail</h2>
+                            <p>BT 6/9/2022</p>
+                        </div>
+                    </a>
                 </div>
-                <div class="box project-item-1">
-                    <img src="../img/keyboard.png" alt="">
-                </div>
-                <div class="box project-item-1">
-                    <img src="../img/keyboard.png" alt="">
-                </div>
+                
             </div>
+            
         </section>
     </main>
     <footer></footer>

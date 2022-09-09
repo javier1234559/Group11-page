@@ -20,7 +20,7 @@
     --sub-title-font :  2.5rem ;
     --normal-font: 2.4rem;
     --sub-normal-font: 1.6rem;
-    --tiny-font:1.2rem;
+    --tiny-font:1.5rem;
 
     /* z-index */
     --z-fixed :10 ;
@@ -62,7 +62,7 @@ ul{
     transition: width .5s ease;
 }
 .line-hover:hover::after{
-    background-color: #000;
+    background-color: var(--main-color-bolder);
     padding:1px;
     width: 100%;
 }
@@ -72,15 +72,24 @@ ul{
 .bottom-line::after{
     content: "";
     height: 2px;
-    left: -100px;
-    width: 100px ;
+    left: 42% ;
+    right: 45%;
+    width: 160px ;
     bottom: -40% ;
     position: absolute;
-    background-color: red;
-
-
+    background-color: var(--black-color);
 }
-
+.disable-link{
+    cursor: default;
+    opacity: 0.5;
+}
+.flex-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-start .box{
+    margin-left: 4em;
+}
 /* ===================================================== LAYOUT SETUP ====================================== */
 
 .content-wrapper{
