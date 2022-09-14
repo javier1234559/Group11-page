@@ -83,13 +83,7 @@ ul{
     cursor: default;
     opacity: 0.5;
 }
-.flex-start{
-    display: flex;
-    justify-content: flex-start;
-}
-.flex-start .box{
-    margin-left: 4em;
-}
+
 /* ===================================================== LAYOUT SETUP ====================================== */
 
 .content-wrapper{

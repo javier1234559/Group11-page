@@ -25,6 +25,12 @@
         left: 28% ;
     
     }
+    .project-item-wapper{
+        display: flex;
+        align-items: center;
+        gap :2em;
+        flex-direction: column;
+    }
 }   
 
 /* Tablet and Mobile */
