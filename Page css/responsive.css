@@ -32,7 +32,7 @@
         flex-direction: column;
     }
 }   
-
+    
 /* Tablet and Mobile */
 @media (max-width:1023px){
     .section-home-img-info{

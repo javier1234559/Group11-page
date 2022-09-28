@@ -83,6 +83,9 @@ ul{
     cursor: default;
     opacity: 0.5;
 }
+.margin-top-bottom {
+    margin: 3rem 0;
+}
 
 /* ===================================================== LAYOUT SETUP ====================================== */
 
