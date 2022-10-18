@@ -211,9 +211,22 @@ main{
 /* Project */
 .project-item-wapper{
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    gap:2em;
+    max-width: 800px;
+    margin: 0 auto;
 }
-
+.project-items{
+    display: flex;
+    gap: 3em;
+    background-color: #f5d499;
+    box-shadow: 1px 10px 10px #ccc;
+}
+.project-items > h1{
+    min-width: 300px;
+    margin-left: 3em;
+    font-size: 2em;
+}
 .section-project{
     padding: 1em;
     min-height: 600px;
