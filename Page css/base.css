@@ -84,7 +84,10 @@ ul{
     opacity: 0.5;
 }
 .margin-top-bottom {
-    margin: 3rem 0;
+    display: block;
+    width: 1200px !important;
+    margin: 3rem auto;
+    
 }
 
 /* ===================================================== LAYOUT SETUP ====================================== */
