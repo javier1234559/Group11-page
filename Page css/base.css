@@ -4,8 +4,10 @@
     --header-height :80px ;
       
     /* Color Style */
-    --main-color:#c9adc6;
-    --main-color-bolder:#a78ba3;
+    /* --main-color:#c9adc6; */
+    --main-color:#3D3D3D;
+    /* --main-color-bolder:#a78ba3; */
+    --main-color-bolder:#FFCF5C;
     --white-color:#fff;
     --text-color:#5f4d5d;
     --black-color:#000;
